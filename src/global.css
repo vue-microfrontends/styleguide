@@ -1,0 +1,6 @@
+:root {
+  /* 1rem === 10px, but remain responsive to user font size settings */
+  font-size: 62.5%;
+
+  --navbar-width: 23.6rem;
+}
