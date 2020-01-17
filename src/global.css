@@ -4,3 +4,8 @@
 
   --navbar-width: 23.6rem;
 }
+
+body {
+  /* default font size is 16px */
+  font-size: 1.6rem;
+}
