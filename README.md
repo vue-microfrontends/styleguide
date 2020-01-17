@@ -1,2 +1,3 @@
 # styleguide
-The styleguide for vue microfrontends
+
+The styleguide for vue microfrontends.
