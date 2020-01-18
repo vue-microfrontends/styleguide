@@ -12,4 +12,5 @@ body {
   /* default font size is 16px */
   font-size: 1.6rem;
   background-color: #efefef;
+  margin: 0;
 }
