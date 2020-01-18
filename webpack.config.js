@@ -22,7 +22,7 @@ module.exports = webpackConfigEnv => {
         }
       ]
     },
-    externals: ["vue", /^@vue-mf\/.+/],
+    externals: ["vue", "vue-router", /^@vue-mf\/.+/],
     plugins: [new VueLoaderPlugin()]
   });
 };
