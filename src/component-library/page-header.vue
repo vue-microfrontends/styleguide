@@ -13,6 +13,7 @@ export default {
   height: 10.2rem;
   display: flex;
   background-color: #35495e;
+  padding: 1.6rem;
 }
 
 .page-header h1 {
