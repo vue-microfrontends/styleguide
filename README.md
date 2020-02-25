@@ -1,6 +1,6 @@
 # styleguide
 
-The styleguide for vue microfrontends.
+[![CircleCI](https://circleci.com/gh/vue-microfrontends/styleguide.svg?style=svg)](https://circleci.com/gh/vue-microfrontends/styleguide)
 
 ## What is this?
 
