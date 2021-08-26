@@ -7,41 +7,39 @@
     "prettier": "prettier --write './**'",
     "test": "jest --passWithNoTests",
     "watch-tests": "jest --watch",
-    "coverage": "jest --coverage"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && concurrently yarn:test yarn:lint"
-    }
+    "coverage": "jest --coverage",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
-    "@types/jest": "^24.0.23",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@types/jest": "^27.0.1",
     "babel-eslint": "^11.0.0-beta.2",
-    "babel-jest": "^24.9.0",
-    "babel-loader": "^8.0.6",
-    "concurrently": "^5.0.1",
-    "css-loader": "^3.3.2",
-    "eslint": "^6.7.2",
+    "babel-jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "concurrently": "^6.2.1",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
     "eslint-config-important-stuff": "^1.1.0",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "husky": "^3.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "husky": "^6.0.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
-    "style-loader": "^1.0.1",
-    "systemjs-webpack-interop": "^1.1.2",
-    "vue-loader": "^15.8.3",
-    "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "webpack-config-single-spa": "^1.0.7",
-    "webpack-dev-server": "^3.9.0",
-    "webpack-merge": "^4.2.2"
+    "jest": "^27.0.6",
+    "jest-cli": "^27.0.6",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "style-loader": "^3.2.1",
+    "systemjs-webpack-interop": "^2.3.7",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-config-single-spa": "^5.0.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
