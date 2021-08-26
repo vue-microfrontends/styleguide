@@ -39,7 +39,7 @@ Note that you may use whichever port you would like to. Go to https://localhost:
 Now, go to https://vue.microfrontends.app. In the browser console, run the following:
 
 ```js
-localStorage.setItem('devtools', true);
+localStorage.setItem("devtools", true);
 ```
 
 Refresh the page. Click on the tan / beige rectangle:
