@@ -1,4 +1,4 @@
 .gitignore
 .prettierignore
-yarn.lock
+pnpm-lock.yaml
 package-lock.json

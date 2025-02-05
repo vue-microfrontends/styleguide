@@ -1,12 +1,13 @@
 const { merge } = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa");
-const VueLoaderPlugin = require("vue-loader/lib/plugin");
+const { VueLoaderPlugin } = require("vue-loader");
 
 module.exports = (webpackConfigEnv) => {
   const defaultConfig = singleSpaDefaults({
     orgName: "vue-mf",
     projectName: "styleguide",
     webpackConfigEnv,
+    outputSystemJS: false,
   });
 
   const config = merge(defaultConfig, {
